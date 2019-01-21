@@ -10,10 +10,14 @@ import java.util.List;
 
 public class User extends Operator {
 
-    List<MediaItem> rentedItems = new ArrayList<>();
+    private List<MediaItem> rentedItems = new ArrayList<>();
 
     public User(Operators type, String name, Mediatheque mediatheque) {
         super(type, name, mediatheque);
+    }
+
+    public List<MediaItem> getRentedItems() {
+        return rentedItems;
     }
 
     public void preview(MediaItem mediaItem){

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Java.Model.Persistence.Mediatheque</OriginalElement>
+  <nodes>
+    <node x="588.9642857142858" y="164.0">Java.Model.MediaItem.Book.BookGenre</node>
+    <node x="1901.3977820959533" y="176.0">Java.Model.MediaItem.Record.RecordGenre</node>
+    <node x="1093.7123827392124" y="139.0">Java.Model.MediaItem.MediaItem</node>
+    <node x="1439.6477820959533" y="452.0">Java.Model.MediaItem.Movie.Movie</node>
+    <node x="830.1073773787189" y="1177.0">Java.Controller.Manager</node>
+    <node x="1024.0207160725458" y="667.0">Java.Model.Persistence.Mediatheque</node>
+    <node x="2058.3977820959535" y="200.0">Java.Model.MediaItem.Interfaces.Listenable</node>
+    <node x="337.5" y="200.0">Java.Model.MediaItem.Interfaces.Readable</node>
+    <node x="1716.032084785134" y="164.0">Java.Model.MediaItem.Movie.MovieGenre</node>
+    <node x="1781.6477820959533" y="464.0">Java.Model.MediaItem.Record.Record</node>
+    <node x="820.5623827392124" y="0.0">Java.Model.Operator.Operators</node>
+    <node x="859.8392857142858" y="416.0">Java.Controller.User</node>
+    <node x="162.5" y="176.0">Java.Model.MediaItem.Magazine.MagazineGenre</node>
+    <node x="520.3237514518005" y="452.0">Java.Model.MediaItem.Book.Book</node>
+    <node x="21.5" y="176.0">Java.Model.MediaItem.Magazine.Periodicity</node>
+    <node x="76.32375145180049" y="452.0">Java.Model.MediaItem.Magazine.Magazine</node>
+    <node x="867.604049405879" y="989.0">Java.Model.Operator.Operator</node>
+    <node x="1523.6477820959533" y="200.0">Java.Model.MediaItem.Interfaces.Watchable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Java.Controller.Manager" target="Java.Model.MediaItem.MediaItem">
+      <point x="150.41666666666674" y="-100.0" />
+      <point x="1161.0240440453856" y="1157.0" />
+      <point x="1422.5207160725458" y="1157.0" />
+      <point x="1422.5207160725458" y="386.0" />
+      <point x="1308.827767354597" y="386.0" />
+      <point x="50.61538461538453" y="88.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Interfaces.Listenable">
+      <point x="123.20000000000005" y="-52.5" />
+      <point x="2058.8477820959533" y="396.0" />
+      <point x="2133.3977820959535" y="396.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Interfaces.Watchable">
+      <point x="0.0" y="-64.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="Java.Model.Operator.Operator" target="Java.Model.Persistence.Mediatheque">
+      <point x="91.0" y="-64.0" />
+      <point x="1140.6040494058789" y="969.0" />
+      <point x="1088.6873827392124" y="969.0" />
+      <point x="-129.33333333333337" y="136.0" />
+    </edge>
+    <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.MediaItem.MediaItem">
+      <point x="32.33333333333326" y="-136.0" />
+      <point x="1250.3540494058789" y="647.0" />
+      <point x="1258.2123827392124" y="647.0" />
+      <point x="0.0" y="88.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Movie.MovieGenre">
+      <point x="64.40000000000009" y="-64.5" />
+      <point x="1665.0477820959534" y="386.0" />
+      <point x="1748.782084785134" y="386.0" />
+      <point x="-32.75" y="63.5" />
+    </edge>
+    <edge source="Java.Controller.Manager" target="Java.Controller.User">
+      <point x="-90.25" y="-100.0" />
+      <point x="920.3573773787189" y="1147.0" />
+      <point x="857.104049405879" y="1147.0" />
+      <point x="857.104049405879" y="647.0" />
+      <point x="887.422619047619" y="647.0" />
+      <point x="-137.91666666666674" y="100.5" />
+    </edge>
+    <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.Operator.Operators">
+      <point x="161.66666666666674" y="-136.0" />
+      <point x="1379.6873827392124" y="647.0" />
+      <point x="2218.8977820959535" y="647.0" />
+      <point x="2218.8977820959535" y="99.0" />
+      <point x="929.6457160725456" y="99.0" />
+      <point x="49.58333333333326" y="39.5" />
+    </edge>
+    <edge source="Java.Model.Persistence.Mediatheque" target="Java.Controller.User">
+      <point x="-97.0" y="-136.0" />
+      <point x="1121.0207160725458" y="647.0" />
+      <point x="1108.0892857142858" y="647.0" />
+      <point x="82.75" y="100.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.MediaItem">
+      <point x="124.0" y="-64.5" />
+      <point x="799.3237514518005" y="376.0" />
+      <point x="1182.2893058161355" y="376.0" />
+      <point x="-75.9230769230769" y="88.5" />
+    </edge>
+    <edge source="Java.Controller.Manager" target="Java.Model.Persistence.Mediatheque">
+      <point x="90.25" y="-100.0" />
+      <point x="1100.8573773787189" y="1147.0" />
+      <point x="1349.9407107120524" y="1147.0" />
+      <point x="1349.9407107120524" y="969.0" />
+      <point x="1347.3540494058793" y="969.0" />
+      <point x="129.33333333333348" y="136.0" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.Periodicity">
+      <point x="-181.71428571428572" y="-64.5" />
+      <point x="106.60946573751471" y="396.0" />
+      <point x="51.75" y="396.0" />
+      <point x="-30.25" y="51.5" />
+    </edge>
+    <edge source="Java.Controller.User" target="Java.Model.Operator.Operator">
+      <point x="-82.75" y="100.5" />
+      <point x="942.5892857142858" y="647.0" />
+      <point x="1002.5207160725457" y="647.0" />
+      <point x="1002.5207160725457" y="969.0" />
+      <point x="1019.2707160725457" y="969.0" />
+      <point x="-30.333333333333258" y="-64.0" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Interfaces.Readable">
+      <point x="60.571428571428555" y="-64.5" />
+      <point x="348.89518002322905" y="396.0" />
+      <point x="373.25" y="396.0" />
+      <point x="-35.75" y="27.5" />
+    </edge>
+    <edge source="Java.Controller.User" target="Java.Model.Persistence.Mediatheque">
+      <point x="137.91666666666652" y="100.5" />
+      <point x="1163.2559523809523" y="647.0" />
+      <point x="1185.6873827392124" y="647.0" />
+      <point x="-32.33333333333326" y="-136.0" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Book.BookGenre">
+      <point x="-62.0" y="-64.5" />
+      <point x="613.3237514518005" y="336.0" />
+      <point x="620.2142857142858" y="336.0" />
+      <point x="-31.25" y="63.5" />
+    </edge>
+    <edge source="Java.Controller.User" target="Java.Model.Operator.Operators">
+      <point x="-110.33333333333326" y="-100.5" />
+      <point x="915.0059523809525" y="336.0" />
+      <point x="930.7707160725457" y="336.0" />
+      <point x="930.7707160725457" y="119.0" />
+      <point x="889.9790494058791" y="119.0" />
+      <point x="9.916666666666742" y="39.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.MediaItem">
+      <point x="-123.20000000000005" y="-52.5" />
+      <point x="1812.4477820959532" y="356.0" />
+      <point x="1384.7508442776739" y="356.0" />
+      <point x="126.53846153846143" y="88.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Record.RecordGenre">
+      <point x="61.59999999999991" y="-52.5" />
+      <point x="1997.2477820959532" y="396.0" />
+      <point x="2004.1477820959533" y="396.0" />
+      <point x="34.25" y="51.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.MagazineGenre">
+      <point x="0.0" y="-64.5" />
+      <point x="288.3237514518005" y="396.0" />
+      <point x="278.75" y="396.0" />
+      <point x="38.75" y="51.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.MediaItem" target="Java.Model.Operator.Operators">
+      <point x="0.0" y="-88.5" />
+      <point x="1258.2123827392124" y="109.0" />
+      <point x="909.8123827392124" y="109.0" />
+      <point x="29.75" y="39.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.MediaItem">
+      <point x="-128.79999999999995" y="-64.5" />
+      <point x="1471.8477820959533" y="376.0" />
+      <point x="1334.1354596622893" y="376.0" />
+      <point x="75.9230769230769" y="88.5" />
+    </edge>
+    <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operators">
+      <point x="-150.41666666666652" y="-100.0" />
+      <point x="860.1907107120524" y="1157.0" />
+      <point x="0.0" y="1157.0" />
+      <point x="0.0" y="99.0" />
+      <point x="830.4790494058791" y="99.0" />
+      <point x="-49.58333333333326" y="39.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Interfaces.Readable">
+      <point x="-124.0" y="-64.5" />
+      <point x="551.3237514518005" y="336.0" />
+      <point x="444.75" y="336.0" />
+      <point x="35.75" y="27.5" />
+    </edge>
+    <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operator">
+      <point x="-30.083333333333258" y="-100.0" />
+      <point x="980.5240440453856" y="1157.0" />
+      <point x="958.604049405879" y="1157.0" />
+      <point x="-91.0" y="64.0" />
+    </edge>
+    <edge source="Java.Model.Operator.Operator" target="Java.Model.Operator.Operators">
+      <point x="-91.0" y="-64.0" />
+      <point x="958.604049405879" y="959.0" />
+      <point x="840.8237514518005" y="959.0" />
+      <point x="840.8237514518005" y="119.0" />
+      <point x="870.1457160725456" y="119.0" />
+      <point x="-9.916666666666742" y="39.5" />
+    </edge>
+    <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.MediaItem">
+      <point x="121.14285714285711" y="-64.5" />
+      <point x="409.4666085946576" y="346.0" />
+      <point x="1106.3662288930586" y="346.0" />
+      <point x="-151.8461538461538" y="88.5" />
+    </edge>
+    <edge source="Java.Controller.User" target="Java.Model.MediaItem.MediaItem">
+      <point x="110.33333333333326" y="-100.5" />
+      <point x="1135.672619047619" y="396.0" />
+      <point x="1232.90469043152" y="396.0" />
+      <point x="-25.307692307692378" y="88.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6333333333333334" x="726.0526315789473" y="603.0" />
+  <SelectedNodes>
+    <node>Java.Model.MediaItem.Book.BookGenre</node>
+    <node>Java.Model.MediaItem.Record.RecordGenre</node>
+    <node>Java.Model.MediaItem.MediaItem</node>
+    <node>Java.Model.MediaItem.Movie.Movie</node>
+    <node>Java.Controller.Manager</node>
+    <node>Java.Model.Persistence.Mediatheque</node>
+    <node>Java.Model.MediaItem.Interfaces.Listenable</node>
+    <node>Java.Model.MediaItem.Interfaces.Readable</node>
+    <node>Java.Model.MediaItem.Movie.MovieGenre</node>
+    <node>Java.Model.MediaItem.Record.Record</node>
+    <node>Java.Model.Operator.Operators</node>
+    <node>Java.Controller.User</node>
+    <node>Java.Model.MediaItem.Magazine.MagazineGenre</node>
+    <node>Java.Model.MediaItem.Book.Book</node>
+    <node>Java.Model.MediaItem.Magazine.Periodicity</node>
+    <node>Java.Model.MediaItem.Magazine.Magazine</node>
+    <node>Java.Model.Operator.Operator</node>
+    <node>Java.Model.MediaItem.Interfaces.Watchable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
