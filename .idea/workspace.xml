@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a58733f-d98b-48ba-a895-011ddf8d4fa7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Listenable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Readable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Watchable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Model.Operator.Operator">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Model.Operator.Operator</OriginalElement>
+              <nodes>
+                <node x="330.0" y="546.0">Model.MediaItem.Interfaces.Readable</node>
+                <node x="1057.7232142857142" y="446.0">Controller.Manager</node>
+                <node x="554.75" y="153.5">Model.MediaItem.MediaItem</node>
+                <node x="284.25" y="307.0">Model.MediaItem.Book.Book</node>
+                <node x="1438.7232142857142" y="446.0">Controller.User</node>
+                <node x="529.25" y="307.0">Model.MediaItem.Movie.Movie</node>
+                <node x="278.0" y="129.5">Model.MediaItem.Book.BookGenre</node>
+                <node x="10.5" y="141.5">Model.MediaItem.Record.RecordGenre</node>
+                <node x="1262.169642857143" y="129.0">Model.Operator.Operator</node>
+                <node x="924.25" y="141.5">Model.MediaItem.Magazine.MagazineGenre</node>
+                <node x="0.0" y="546.0">Model.MediaItem.Interfaces.Watchable</node>
+                <node x="787.25" y="307.0">Model.MediaItem.Magazine.Magazine</node>
+                <node x="1093.25" y="307.0">Model.Persistence.Mediatheque</node>
+                <node x="1347.9017857142858" y="0.0">Model.Operator.Operators</node>
+                <node x="166.0" y="546.0">Model.MediaItem.Interfaces.Listenable</node>
+                <node x="17.25" y="319.0">Model.MediaItem.Record.Record</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Model.Operator.Operator" target="Model.Operator.Operators">
+                  <point x="-91.0" y="-64.0" />
+                  <point x="1353.169642857143" y="109.0" />
+                  <point x="1392.5267857142858" y="109.0" />
+                  <point x="-14.875" y="39.5" />
+                </edge>
+                <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.Book.BookGenre">
+                  <point x="-56.25" y="-39.5" />
+                  <point x="0.0" y="63.5" />
+                </edge>
+                <edge source="Controller.User" target="Model.Operator.Operators">
+                  <point x="124.125" y="-27.5" />
+                  <point x="1728.3482142857142" y="426.0" />
+                  <point x="1677.955357142857" y="426.0" />
+                  <point x="1677.955357142857" y="99.0" />
+                  <point x="1452.0267857142858" y="99.0" />
+                  <point x="44.625" y="39.5" />
+                </edge>
+                <edge source="Model.Persistence.Mediatheque" target="Model.Operator.Operator">
+                  <point x="-37.875" y="-39.5" />
+                  <point x="1206.875" y="277.0" />
+                  <point x="1288.169642857143" y="277.0" />
+                  <point x="-156.0" y="64.0" />
+                </edge>
+                <edge source="Controller.Manager" target="Model.Operator.Operators">
+                  <point x="-135.375" y="-27.5" />
+                  <point x="1102.8482142857142" y="426.0" />
+                  <point x="0.0" y="426.0" />
+                  <point x="0.0" y="99.0" />
+                  <point x="1362.7767857142858" y="99.0" />
+                  <point x="-44.625" y="39.5" />
+                </edge>
+                <edge source="Controller.Manager" target="Model.Persistence.Mediatheque">
+                  <point x="-45.125" y="-27.5" />
+                  <point x="1193.0982142857142" y="426.0" />
+                  <point x="1169.0" y="426.0" />
+                  <point x="-75.75" y="39.5" />
+                </edge>
+                <edge source="Model.Persistence.Mediatheque" target="Model.MediaItem.MediaItem">
+                  <point x="-113.625" y="-39.5" />
+                  <point x="1131.125" y="277.0" />
+                  <point x="723.0500000000001" y="277.0" />
+                  <point x="74.80000000000007" y="39.5" />
+                </edge>
+                <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.MediaItem">
+                  <point x="56.25" y="-39.5" />
+                  <point x="453.0" y="287.0" />
+                  <point x="610.85" y="287.0" />
+                  <point x="-37.39999999999998" y="39.5" />
+                </edge>
+                <edge source="Controller.User" target="Model.Persistence.Mediatheque">
+                  <point x="-124.125" y="-27.5" />
+                  <point x="1480.0982142857142" y="406.0" />
+                  <point x="1320.5" y="406.0" />
+                  <point x="75.75" y="39.5" />
+                </edge>
+                <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.MediaItem">
+                  <point x="61.75" y="-27.5" />
+                  <point x="202.5" y="277.0" />
+                  <point x="573.45" y="277.0" />
+                  <point x="-74.79999999999995" y="39.5" />
+                </edge>
+                <edge source="Model.MediaItem.Movie.Movie" target="Model.MediaItem.MediaItem">
+                  <point x="0.0" y="-39.5" />
+                  <point x="0.0" y="39.5" />
+                </edge>
+                <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.MediaItem">
+                  <point x="-71.5" y="-39.5" />
+                  <point x="858.75" y="287.0" />
+                  <point x="685.65" y="287.0" />
+                  <point x="37.39999999999998" y="39.5" />
+                </edge>
+                <edge source="Controller.User" target="Model.Operator.Operator">
+                  <point x="-41.375" y="-27.5" />
+                  <point x="1562.8482142857142" y="426.0" />
+                  <point x="1623.3035714285716" y="426.0" />
+                  <point x="1623.3035714285716" y="287.0" />
+                  <point x="1548.1696428571427" y="287.0" />
+                  <point x="103.99999999999994" y="64.0" />
+                </edge>
+                <edge source="Model.Operator.Operator" target="Model.Persistence.Mediatheque">
+                  <point x="-52.0" y="64.0" />
+                  <point x="1392.169642857143" y="287.0" />
+                  <point x="1358.375" y="287.0" />
+                  <point x="113.625" y="-39.5" />
+                </edge>
+                <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.Magazine.MagazineGenre">
+                  <point x="71.5" y="-39.5" />
+                  <point x="0.0" y="51.5" />
+                </edge>
+                <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.Record.RecordGenre">
+                  <point x="-61.75" y="-27.5" />
+                  <point x="0.0" y="51.5" />
+                </edge>
+                <edge source="Controller.Manager" target="Model.Operator.Operator">
+                  <point x="135.375" y="-27.5" />
+                  <point x="1373.5982142857142" y="426.0" />
+                  <point x="1477.1071428571427" y="426.0" />
+                  <point x="1477.1071428571427" y="287.0" />
+                  <point x="1496.1696428571427" y="287.0" />
+                  <point x="51.99999999999994" y="64.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6192660550458715" x="367.5555555555556" y="276.4555555555556" />
+              <SelectedNodes>
+                <node>Model.MediaItem.Movie.Movie</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Periodicity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Operators.java" />
+        <option value="$PROJECT_DIR$/src/Operator.java" />
+        <option value="$PROJECT_DIR$/src/Mediatheque.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Mediatheque.java" />
+        <option value="$PROJECT_DIR$/src/Model/Operator/User.java" />
+        <option value="$PROJECT_DIR$/src/Model/Operator/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Model/Persistence/Persistence.java" />
+        <option value="$PROJECT_DIR$/src/Controller/User.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Book/BookGenres.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Magazine/MagazineGenres.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Movie/MovieGenres.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Record/RecordGenres.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Magazine/Periodicity.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Listenable.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Readable.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Watchable.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="61" />
+    <option name="y" value="34" />
+    <option name="width" value="1305" />
+    <option name="height" value="716" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
+              <item name="Magazine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
+              <item name="Movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Operator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548063692680" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a58733f-d98b-48ba-a895-011ddf8d4fa7" name="Default Changelist" comment="" />
+      <created>1548058774290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548058774290</updated>
+      <workItem from="1548058779281" duration="4778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4778000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="-4" width="1305" height="772" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Main</OriginalElement>
+          <nodes>
+            <node x="43.30729166666666" y="0.0">Operator</node>
+            <node x="243.0" y="162.0">Movie</node>
+            <node x="0.0" y="81.0">User</node>
+            <node x="469.0" y="162.0">Game</node>
+            <node x="70.125" y="162.0">Mediatheque</node>
+            <node x="284.57291666666663" y="81.0">MediaItem</node>
+            <node x="353.0" y="162.0">Record</node>
+            <node x="99.0" y="81.0">Manager</node>
+            <node x="0.0" y="238.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Manager" target="Operator">
+              <point x="0.0" y="-15.5" />
+              <point x="153.5" y="56.0" />
+              <point x="127.30729166666666" y="56.0" />
+              <point x="28.0" y="15.5" />
+            </edge>
+            <edge source="User" target="Operator">
+              <point x="0.0" y="-15.5" />
+              <point x="39.5" y="56.0" />
+              <point x="71.30729166666666" y="56.0" />
+              <point x="-28.0" y="15.5" />
+            </edge>
+            <edge source="Mediatheque" target="User">
+              <point x="-46.33333333333334" y="-15.5" />
+              <point x="93.29166666666666" y="142.0" />
+              <point x="39.5" y="142.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Mediatheque" target="Manager">
+              <point x="0.0" y="-15.5" />
+              <point x="139.625" y="142.0" />
+              <point x="153.5" y="142.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Record" target="MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="401.0" y="142.0" />
+              <point x="360.19791666666663" y="142.0" />
+              <point x="15.125" y="15.5" />
+            </edge>
+            <edge source="Game" target="MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="512.5" y="132.0" />
+              <point x="390.44791666666663" y="132.0" />
+              <point x="45.375" y="15.5" />
+            </edge>
+            <edge source="Mediatheque" target="MediaItem">
+              <point x="46.33333333333334" y="-15.5" />
+              <point x="185.95833333333334" y="132.0" />
+              <point x="299.69791666666663" y="132.0" />
+              <point x="-45.375" y="15.5" />
+            </edge>
+            <edge source="Movie" target="MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="288.0" y="142.0" />
+              <point x="329.94791666666663" y="142.0" />
+              <point x="-15.125" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="89.5" />
+          <SelectedNodes>
+            <node>Mediatheque</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Game</OriginalElement>
+          <nodes>
+            <node x="0.0" y="153.0">Model.Operator.Operator</node>
+            <node x="0.0" y="415.0">Model.MediaItem.Movie</node>
+            <node x="147.45000000000002" y="0.0">Controller.Mediatheque</node>
+            <node x="8.450000000000017" y="12.0">Model.Operator.Operators</node>
+            <node x="79.70000000000003" y="258.0">Model.Operator.User</node>
+            <node x="178.70000000000005" y="258.0">Model.Operator.Manager</node>
+            <node x="226.0" y="415.0">Model.MediaItem.Game</node>
+            <node x="97.5" y="334.0">Model.MediaItem.MediaItem</node>
+            <node x="110.0" y="415.0">Model.MediaItem.Record</node>
+            <node x="0.0" y="491.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Model.MediaItem.Game" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="269.5" y="390.0" />
+              <point x="198.33333333333334" y="390.0" />
+              <point x="40.33333333333334" y="15.5" />
+            </edge>
+            <edge source="Model.Operator.Operator" target="Model.Operator.Operators">
+              <point x="-45.5" y="-27.5" />
+              <point x="136.5" y="128.0" />
+              <point x="97.70000000000002" y="128.0" />
+              <point x="29.75" y="39.5" />
+            </edge>
+            <edge source="Model.Operator.Manager" target="Model.Operator.Operator">
+              <point x="-2.8421709430404007E-14" y="-15.5" />
+              <point x="233.2" y="233.0" />
+              <point x="273.0" y="233.0" />
+              <point x="91.0" y="27.5" />
+            </edge>
+            <edge source="Model.Operator.Operator" target="Controller.Mediatheque">
+              <point x="136.5" y="-27.5" />
+              <point x="318.5" y="128.0" />
+              <point x="374.70000000000005" y="128.0" />
+              <point x="75.75" y="51.5" />
+            </edge>
+            <edge source="Model.MediaItem.Movie" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="45.0" y="390.0" />
+              <point x="117.66666666666666" y="390.0" />
+              <point x="-40.33333333333334" y="15.5" />
+            </edge>
+            <edge source="Model.MediaItem.Record" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Model.Operator.User" target="Model.Operator.Operator">
+              <point x="0.0" y="-15.5" />
+              <point x="119.20000000000003" y="233.0" />
+              <point x="91.0" y="233.0" />
+              <point x="-91.0" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="27.0" y="196.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Operator/Operators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Persistence/Persistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Persistence/Mediatheque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Model.MediaItem.Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Model.MediaItem.Game</OriginalElement>
+          <nodes>
+            <node x="360.8678571428571" y="0.0">Model.MediaItem.MediaItem</node>
+            <node x="240.17499999999995" y="486.0">Controller.Manager</node>
+            <node x="955.675" y="151.0">Model.MediaItem.Book.Book</node>
+            <node x="621.175" y="486.0">Controller.User</node>
+            <node x="335.70178571428573" y="298.0">Model.Operator.Operator</node>
+            <node x="340.99999999999994" y="139.0">Model.Persistence.Mediatheque</node>
+            <node x="0.0" y="151.0">Model.MediaItem.Movie.Movie</node>
+            <node x="682.675" y="139.0">Model.Operator.Operators</node>
+            <node x="224.99999999999994" y="163.0">Model.MediaItem.Record.Record</node>
+            <node x="821.675" y="163.0">Model.MediaItem.Magazine.Magazine</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Model.Operator.Operator" target="Model.Operator.Operators">
+              <point x="72.79999999999995" y="-64.0" />
+              <point x="590.5017857142857" y="258.0" />
+              <point x="697.55" y="258.0" />
+              <point x="-44.625" y="39.5" />
+            </edge>
+            <edge source="Controller.User" target="Model.Operator.Operators">
+              <point x="124.125" y="-27.5" />
+              <point x="910.8" y="466.0" />
+              <point x="852.4124999999999" y="466.0" />
+              <point x="852.4124999999999" y="238.0" />
+              <point x="786.8" y="238.0" />
+              <point x="44.625" y="39.5" />
+            </edge>
+            <edge source="Model.Persistence.Mediatheque" target="Model.Operator.Operator">
+              <point x="60.60000000000002" y="39.5" />
+              <point x="553.0999999999999" y="278.0" />
+              <point x="517.7017857142857" y="278.0" />
+              <point x="0.0" y="-64.0" />
+            </edge>
+            <edge source="Controller.Manager" target="Model.Operator.Operators">
+              <point x="135.375" y="-27.5" />
+              <point x="556.05" y="466.0" />
+              <point x="710.2017857142857" y="466.0" />
+              <point x="710.2017857142857" y="278.0" />
+              <point x="757.05" y="278.0" />
+              <point x="14.875" y="39.5" />
+            </edge>
+            <edge source="Controller.Manager" target="Model.Persistence.Mediatheque">
+              <point x="-135.375" y="-27.5" />
+              <point x="285.29999999999995" y="466.0" />
+              <point x="265.04285714285714" y="466.0" />
+              <point x="265.04285714285714" y="268.0" />
+              <point x="371.29999999999995" y="268.0" />
+              <point x="-121.19999999999999" y="39.5" />
+            </edge>
+            <edge source="Model.Persistence.Mediatheque" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-39.5" />
+              <point x="492.49999999999994" y="119.0" />
+              <point x="454.3678571428571" y="119.0" />
+              <point x="0.0" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-27.5" />
+              <point x="1046.175" y="99.0" />
+              <point x="529.1678571428572" y="99.0" />
+              <point x="74.80000000000007" y="39.5" />
+            </edge>
+            <edge source="Controller.User" target="Model.Persistence.Mediatheque">
+              <point x="41.375" y="-27.5" />
+              <point x="828.05" y="466.0" />
+              <point x="824.3" y="466.0" />
+              <point x="824.3" y="248.0" />
+              <point x="613.7" y="248.0" />
+              <point x="121.20000000000005" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="272.99999999999994" y="119.0" />
+              <point x="416.9678571428571" y="119.0" />
+              <point x="-37.39999999999998" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Movie.Movie" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-27.5" />
+              <point x="102.5" y="109.0" />
+              <point x="379.5678571428571" y="109.0" />
+              <point x="-74.79999999999995" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-15.5" />
+              <point x="878.675" y="109.0" />
+              <point x="491.76785714285717" y="109.0" />
+              <point x="37.40000000000009" y="39.5" />
+            </edge>
+            <edge source="Controller.User" target="Model.Operator.Operator">
+              <point x="-124.125" y="-27.5" />
+              <point x="662.55" y="456.0" />
+              <point x="563.2017857142857" y="456.0" />
+              <point x="45.5" y="64.0" />
+            </edge>
+            <edge source="Model.Operator.Operator" target="Model.Persistence.Mediatheque">
+              <point x="-72.80000000000007" y="-64.0" />
+              <point x="444.90178571428567" y="278.0" />
+              <point x="492.49999999999994" y="278.0" />
+              <point x="0.0" y="39.5" />
+            </edge>
+            <edge source="Controller.Manager" target="Model.Operator.Operator">
+              <point x="45.125" y="-27.5" />
+              <point x="465.79999999999995" y="466.0" />
+              <point x="472.20178571428573" y="466.0" />
+              <point x="-45.5" y="64.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="472.0" y="220.0" />
+          <SelectedNodes>
+            <node>Model.MediaItem.Record.Record</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Book/BookGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/MagazineGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Movie/MovieGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Record/RecordGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Periodicity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Model.Operator.Operator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Model.Operator.Operator</OriginalElement>
+          <nodes>
+            <node x="330.0" y="546.0">Model.MediaItem.Interfaces.Readable</node>
+            <node x="1057.7232142857142" y="446.0">Controller.Manager</node>
+            <node x="554.75" y="153.5">Model.MediaItem.MediaItem</node>
+            <node x="284.25" y="307.0">Model.MediaItem.Book.Book</node>
+            <node x="1438.7232142857142" y="446.0">Controller.User</node>
+            <node x="529.25" y="307.0">Model.MediaItem.Movie.Movie</node>
+            <node x="278.0" y="129.5">Model.MediaItem.Book.BookGenre</node>
+            <node x="10.5" y="141.5">Model.MediaItem.Record.RecordGenre</node>
+            <node x="1262.169642857143" y="129.0">Model.Operator.Operator</node>
+            <node x="924.25" y="141.5">Model.MediaItem.Magazine.MagazineGenre</node>
+            <node x="0.0" y="546.0">Model.MediaItem.Interfaces.Watchable</node>
+            <node x="787.25" y="307.0">Model.MediaItem.Magazine.Magazine</node>
+            <node x="1093.25" y="307.0">Model.Persistence.Mediatheque</node>
+            <node x="1347.9017857142858" y="0.0">Model.Operator.Operators</node>
+            <node x="166.0" y="546.0">Model.MediaItem.Interfaces.Listenable</node>
+            <node x="17.25" y="319.0">Model.MediaItem.Record.Record</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Model.Operator.Operator" target="Model.Operator.Operators">
+              <point x="-91.0" y="-64.0" />
+              <point x="1353.169642857143" y="109.0" />
+              <point x="1392.5267857142858" y="109.0" />
+              <point x="-14.875" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.Book.BookGenre">
+              <point x="-56.25" y="-39.5" />
+              <point x="0.0" y="63.5" />
+            </edge>
+            <edge source="Controller.User" target="Model.Operator.Operators">
+              <point x="124.125" y="-27.5" />
+              <point x="1728.3482142857142" y="426.0" />
+              <point x="1677.955357142857" y="426.0" />
+              <point x="1677.955357142857" y="99.0" />
+              <point x="1452.0267857142858" y="99.0" />
+              <point x="44.625" y="39.5" />
+            </edge>
+            <edge source="Model.Persistence.Mediatheque" target="Model.Operator.Operator">
+              <point x="-37.875" y="-39.5" />
+              <point x="1206.875" y="277.0" />
+              <point x="1288.169642857143" y="277.0" />
+              <point x="-156.0" y="64.0" />
+            </edge>
+            <edge source="Controller.Manager" target="Model.Operator.Operators">
+              <point x="-135.375" y="-27.5" />
+              <point x="1102.8482142857142" y="426.0" />
+              <point x="0.0" y="426.0" />
+              <point x="0.0" y="99.0" />
+              <point x="1362.7767857142858" y="99.0" />
+              <point x="-44.625" y="39.5" />
+            </edge>
+            <edge source="Controller.Manager" target="Model.Persistence.Mediatheque">
+              <point x="-45.125" y="-27.5" />
+              <point x="1193.0982142857142" y="426.0" />
+              <point x="1169.0" y="426.0" />
+              <point x="-75.75" y="39.5" />
+            </edge>
+            <edge source="Model.Persistence.Mediatheque" target="Model.MediaItem.MediaItem">
+              <point x="-113.625" y="-39.5" />
+              <point x="1131.125" y="277.0" />
+              <point x="723.0500000000001" y="277.0" />
+              <point x="74.80000000000007" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.MediaItem">
+              <point x="56.25" y="-39.5" />
+              <point x="453.0" y="287.0" />
+              <point x="610.85" y="287.0" />
+              <point x="-37.39999999999998" y="39.5" />
+            </edge>
+            <edge source="Controller.User" target="Model.Persistence.Mediatheque">
+              <point x="-124.125" y="-27.5" />
+              <point x="1480.0982142857142" y="406.0" />
+              <point x="1320.5" y="406.0" />
+              <point x="75.75" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.MediaItem">
+              <point x="61.75" y="-27.5" />
+              <point x="202.5" y="277.0" />
+              <point x="573.45" y="277.0" />
+              <point x="-74.79999999999995" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Movie.Movie" target="Model.MediaItem.MediaItem">
+              <point x="0.0" y="-39.5" />
+              <point x="0.0" y="39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.MediaItem">
+              <point x="-71.5" y="-39.5" />
+              <point x="858.75" y="287.0" />
+              <point x="685.65" y="287.0" />
+              <point x="37.39999999999998" y="39.5" />
+            </edge>
+            <edge source="Controller.User" target="Model.Operator.Operator">
+              <point x="-41.375" y="-27.5" />
+              <point x="1562.8482142857142" y="426.0" />
+              <point x="1623.3035714285716" y="426.0" />
+              <point x="1623.3035714285716" y="287.0" />
+              <point x="1548.1696428571427" y="287.0" />
+              <point x="103.99999999999994" y="64.0" />
+            </edge>
+            <edge source="Model.Operator.Operator" target="Model.Persistence.Mediatheque">
+              <point x="-52.0" y="64.0" />
+              <point x="1392.169642857143" y="287.0" />
+              <point x="1358.375" y="287.0" />
+              <point x="113.625" y="-39.5" />
+            </edge>
+            <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.Magazine.MagazineGenre">
+              <point x="71.5" y="-39.5" />
+              <point x="0.0" y="51.5" />
+            </edge>
+            <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.Record.RecordGenre">
+              <point x="-61.75" y="-27.5" />
+              <point x="0.0" y="51.5" />
+            </edge>
+            <edge source="Controller.Manager" target="Model.Operator.Operator">
+              <point x="135.375" y="-27.5" />
+              <point x="1373.5982142857142" y="426.0" />
+              <point x="1477.1071428571427" y="426.0" />
+              <point x="1477.1071428571427" y="287.0" />
+              <point x="1496.1696428571427" y="287.0" />
+              <point x="51.99999999999994" y="64.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6192660550458715" x="367.5555555555556" y="276.4555555555556" />
+          <SelectedNodes>
+            <node>Model.MediaItem.Movie.Movie</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Listenable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Readable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Watchable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
