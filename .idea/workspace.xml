@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a58733f-d98b-48ba-a895-011ddf8d4fa7" name="Default Changelist" comment="" />
+    <list default="true" id="6a58733f-d98b-48ba-a895-011ddf8d4fa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Java/Controller/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/Controller/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/MediaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/Model/Persistence/Mediatheque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/Java/Controller/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Book/BookGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Book/BookGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Listenable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Interfaces/Listenable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Readable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Interfaces/Readable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Watchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Interfaces/Watchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Magazine/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Magazine/MagazineGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Magazine/MagazineGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Magazine/Periodicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Magazine/Periodicity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Movie/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Movie/MovieGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Movie/MovieGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Record/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MediaItem/Record/RecordGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/MediaItem/Record/RecordGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Operator/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/Operator/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Operator/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Model/Operator/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Persistence/Mediatheque.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,179 +39,551 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java">
+        <entry file="file://$PROJECT_DIR$/src/Java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java/Controller/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Listenable.java">
+        <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/MediaItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Readable.java">
+        <entry file="file://$PROJECT_DIR$/src/Java/Controller/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/Java/Controller/ManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="115" column="85" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Watchable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <entry file="uml://JAVA/Java.Model.Persistence.Mediatheque">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Java.Model.Persistence.Mediatheque</OriginalElement>
+              <nodes>
+                <node x="571.7142857142857" y="164.0">Java.Model.MediaItem.Book.BookGenre</node>
+                <node x="2125.114652014652" y="176.0">Java.Model.MediaItem.Record.RecordGenre</node>
+                <node x="880.0431519699812" y="139.0">Java.Model.MediaItem.MediaItem</node>
+                <node x="1466.114652014652" y="452.0">Java.Model.MediaItem.Movie.Movie</node>
+                <node x="1144.3947601179311" y="1177.0">Java.Controller.Manager</node>
+                <node x="886.9598186366477" y="667.0">Java.Model.Persistence.Mediatheque</node>
+                <node x="1955.1146520146522" y="200.0">Java.Model.MediaItem.Interfaces.Listenable</node>
+                <node x="344.0028924327705" y="200.0">Java.Model.MediaItem.Interfaces.Readable</node>
+                <node x="1724.1146520146522" y="164.0">Java.Model.MediaItem.Movie.MovieGenre</node>
+                <node x="1876.1146520146522" y="464.0">Java.Model.MediaItem.Record.Record</node>
+                <node x="1512.818151969981" y="0.0">Java.Model.Operator.Operators</node>
+                <node x="1115.1146520146522" y="416.0">Java.Controller.User</node>
+                <node x="0.0" y="176.0">Java.Model.MediaItem.Magazine.MagazineGenre</node>
+                <node x="510.46428571428567" y="452.0">Java.Model.MediaItem.Book.Book</node>
+                <node x="175.0" y="176.0">Java.Model.MediaItem.Magazine.Periodicity</node>
+                <node x="66.46428571428578" y="452.0">Java.Model.MediaItem.Magazine.Magazine</node>
+                <node x="1331.1374006075227" y="989.0">Java.Model.Operator.Operator</node>
+                <node x="1550.1146520146522" y="200.0">Java.Model.MediaItem.Interfaces.Watchable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Java.Controller.Manager" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-150.41666666666652" y="-100.0" />
+                  <point x="1174.4780934512646" y="1157.0" />
+                  <point x="876.4598186366478" y="1157.0" />
+                  <point x="876.4598186366478" y="386.0" />
+                  <point x="993.9277673545967" y="386.0" />
+                  <point x="-50.61538461538453" y="88.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Interfaces.Listenable">
+                  <point x="0.0" y="-52.5" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Interfaces.Watchable">
+                  <point x="2.2737367544323206E-13" y="-64.5" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+                <edge source="Java.Model.Operator.Operator" target="Java.Model.Persistence.Mediatheque">
+                  <point x="-151.66666666666652" y="-64.0" />
+                  <point x="1361.4707339408562" y="969.0" />
+                  <point x="1080.9598186366477" y="969.0" />
+                  <point x="0.0" y="136.0" />
+                </edge>
+                <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-97.0" y="-136.0" />
+                  <point x="983.9598186366477" y="647.0" />
+                  <point x="977.2813186813189" y="647.0" />
+                  <point x="977.2813186813189" y="396.0" />
+                  <point x="1019.2354596622888" y="396.0" />
+                  <point x="-25.307692307692378" y="88.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Movie.MovieGenre">
+                  <point x="64.40000000000032" y="-64.5" />
+                  <point x="1691.5146520146523" y="386.0" />
+                  <point x="1756.8646520146522" y="386.0" />
+                  <point x="-32.75" y="63.5" />
+                </edge>
+                <edge source="Java.Controller.Manager" target="Java.Controller.User">
+                  <point x="-30.083333333333258" y="-100.0" />
+                  <point x="1294.8114267845976" y="1157.0" />
+                  <point x="1285.4598186366477" y="1157.0" />
+                  <point x="1285.4598186366477" y="647.0" />
+                  <point x="1308.1979853479854" y="647.0" />
+                  <point x="27.58333333333337" y="100.5" />
+                </edge>
+                <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.Operator.Operators">
+                  <point x="-161.66666666666674" y="-136.0" />
+                  <point x="919.293151969981" y="647.0" />
+                  <point x="830.9642857142857" y="647.0" />
+                  <point x="830.9642857142857" y="99.0" />
+                  <point x="1522.734818636648" y="99.0" />
+                  <point x="-49.58333333333326" y="39.5" />
+                </edge>
+                <edge source="Java.Model.Persistence.Mediatheque" target="Java.Controller.User">
+                  <point x="32.33333333333326" y="-136.0" />
+                  <point x="1113.293151969981" y="647.0" />
+                  <point x="1142.6979853479854" y="647.0" />
+                  <point x="-137.91666666666663" y="100.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.MediaItem">
+                  <point x="62.0" y="-64.5" />
+                  <point x="727.4642857142857" y="366.0" />
+                  <point x="943.3123827392119" y="366.0" />
+                  <point x="-101.23076923076928" y="88.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.Periodicity">
+                  <point x="0.0" y="-64.5" />
+                  <point x="278.4642857142858" y="396.0" />
+                  <point x="265.75" y="396.0" />
+                  <point x="30.25" y="51.5" />
+                </edge>
+                <edge source="Java.Controller.Manager" target="Java.Model.Persistence.Mediatheque">
+                  <point x="-90.25" y="-100.0" />
+                  <point x="1234.6447601179311" y="1147.0" />
+                  <point x="954.720733940856" y="1147.0" />
+                  <point x="954.720733940856" y="969.0" />
+                  <point x="951.6264853033144" y="969.0" />
+                  <point x="-129.33333333333326" y="136.0" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.Operator.Operator">
+                  <point x="82.74999999999989" y="100.5" />
+                  <point x="1363.364652014652" y="647.0" />
+                  <point x="1482.8040672741895" y="647.0" />
+                  <point x="-30.333333333333258" y="-64.0" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Interfaces.Readable">
+                  <point x="60.571428571428555" y="-64.5" />
+                  <point x="339.0357142857142" y="396.0" />
+                  <point x="379.7528924327705" y="396.0" />
+                  <point x="-35.75" y="27.5" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.Persistence.Mediatheque">
+                  <point x="-27.58333333333337" y="100.5" />
+                  <point x="1253.0313186813187" y="647.0" />
+                  <point x="1242.6264853033144" y="647.0" />
+                  <point x="161.66666666666674" y="-136.0" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Book.BookGenre">
+                  <point x="0.0" y="-64.5" />
+                  <point x="31.25" y="63.5" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.Operator.Operators">
+                  <point x="110.33333333333314" y="-100.5" />
+                  <point x="1390.9479853479852" y="396.0" />
+                  <point x="1368.2098186366475" y="396.0" />
+                  <point x="1368.2098186366475" y="119.0" />
+                  <point x="1562.4014853033145" y="119.0" />
+                  <point x="-9.916666666666742" y="39.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Record.RecordGenre">
+                  <point x="61.59999999999991" y="-52.5" />
+                  <point x="2091.714652014652" y="386.0" />
+                  <point x="2159.364652014652" y="386.0" />
+                  <point x="-34.25" y="51.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-123.20000000000005" y="-52.5" />
+                  <point x="1906.9146520146521" y="356.0" />
+                  <point x="1171.0816135084426" y="356.0" />
+                  <point x="126.53846153846143" y="88.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.MagazineGenre">
+                  <point x="-181.71428571428572" y="-64.5" />
+                  <point x="96.75" y="396.0" />
+                  <point x="38.75" y="396.0" />
+                  <point x="-38.75" y="51.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.MediaItem" target="Java.Model.Operator.Operators">
+                  <point x="0.0" y="-88.5" />
+                  <point x="1044.5431519699812" y="109.0" />
+                  <point x="1542.568151969981" y="109.0" />
+                  <point x="-29.75" y="39.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-128.79999999999973" y="-64.5" />
+                  <point x="1498.3146520146522" y="376.0" />
+                  <point x="1120.466228893058" y="376.0" />
+                  <point x="75.9230769230769" y="88.5" />
+                </edge>
+                <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operators">
+                  <point x="150.41666666666674" y="-100.0" />
+                  <point x="1475.3114267845976" y="1157.0" />
+                  <point x="2283.614652014652" y="1157.0" />
+                  <point x="2283.614652014652" y="99.0" />
+                  <point x="1621.9014853033145" y="99.0" />
+                  <point x="49.58333333333326" y="39.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Interfaces.Readable">
+                  <point x="-124.0" y="-64.5" />
+                  <point x="541.4642857142857" y="336.0" />
+                  <point x="451.2528924327705" y="336.0" />
+                  <point x="35.75" y="27.5" />
+                </edge>
+                <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operator">
+                  <point x="90.25" y="-100.0" />
+                  <point x="1415.1447601179311" y="1147.0" />
+                  <point x="1604.1374006075227" y="1147.0" />
+                  <point x="91.0" y="64.0" />
+                </edge>
+                <edge source="Java.Model.Operator.Operator" target="Java.Model.Operator.Operators">
+                  <point x="151.66666666666674" y="-64.0" />
+                  <point x="1664.8040672741895" y="969.0" />
+                  <point x="2272.614652014652" y="969.0" />
+                  <point x="2272.614652014652" y="109.0" />
+                  <point x="1602.068151969981" y="109.0" />
+                  <point x="29.75" y="39.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.MediaItem">
+                  <point x="181.71428571428572" y="-64.5" />
+                  <point x="460.17857142857156" y="356.0" />
+                  <point x="918.0046904315197" y="356.0" />
+                  <point x="-126.53846153846143" y="88.5" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-1.1368683772161603E-13" y="-100.5" />
+                  <point x="1280.614652014652" y="386.0" />
+                  <point x="1095.1585365853657" y="386.0" />
+                  <point x="50.61538461538453" y="88.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6333333333333334" x="1699.0526315789473" y="789.0" />
+              <SelectedNodes>
+                <node>Java.Model.MediaItem.Book.BookGenre</node>
+                <node>Java.Model.MediaItem.Record.RecordGenre</node>
+                <node>Java.Model.MediaItem.MediaItem</node>
+                <node>Java.Model.MediaItem.Movie.Movie</node>
+                <node>Java.Controller.Manager</node>
+                <node>Java.Model.Persistence.Mediatheque</node>
+                <node>Java.Model.MediaItem.Interfaces.Listenable</node>
+                <node>Java.Model.MediaItem.Interfaces.Readable</node>
+                <node>Java.Model.MediaItem.Movie.MovieGenre</node>
+                <node>Java.Model.MediaItem.Record.Record</node>
+                <node>Java.Model.Operator.Operators</node>
+                <node>Java.Controller.User</node>
+                <node>Java.Model.MediaItem.Magazine.MagazineGenre</node>
+                <node>Java.Model.MediaItem.Book.Book</node>
+                <node>Java.Model.MediaItem.Magazine.Periodicity</node>
+                <node>Java.Model.MediaItem.Magazine.Magazine</node>
+                <node>Java.Model.Operator.Operator</node>
+                <node>Java.Model.MediaItem.Interfaces.Watchable</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/Model.Operator.Operator">
+        <entry file="file://$PROJECT_DIR$/src/Java/Model/Operator/Operators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java/Model/Operator/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Model.MediaItem.Movie.Movie">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>Model.Operator.Operator</OriginalElement>
+              <OriginalElement>Model.MediaItem.Movie.Movie</OriginalElement>
               <nodes>
-                <node x="330.0" y="546.0">Model.MediaItem.Interfaces.Readable</node>
-                <node x="1057.7232142857142" y="446.0">Controller.Manager</node>
-                <node x="554.75" y="153.5">Model.MediaItem.MediaItem</node>
-                <node x="284.25" y="307.0">Model.MediaItem.Book.Book</node>
-                <node x="1438.7232142857142" y="446.0">Controller.User</node>
-                <node x="529.25" y="307.0">Model.MediaItem.Movie.Movie</node>
-                <node x="278.0" y="129.5">Model.MediaItem.Book.BookGenre</node>
-                <node x="10.5" y="141.5">Model.MediaItem.Record.RecordGenre</node>
-                <node x="1262.169642857143" y="129.0">Model.Operator.Operator</node>
-                <node x="924.25" y="141.5">Model.MediaItem.Magazine.MagazineGenre</node>
-                <node x="0.0" y="546.0">Model.MediaItem.Interfaces.Watchable</node>
-                <node x="787.25" y="307.0">Model.MediaItem.Magazine.Magazine</node>
-                <node x="1093.25" y="307.0">Model.Persistence.Mediatheque</node>
-                <node x="1347.9017857142858" y="0.0">Model.Operator.Operators</node>
-                <node x="166.0" y="546.0">Model.MediaItem.Interfaces.Listenable</node>
-                <node x="17.25" y="319.0">Model.MediaItem.Record.Record</node>
+                <node x="568.0892857142856" y="164.0">Java.Model.MediaItem.Book.BookGenre</node>
+                <node x="2019.1142857142856" y="176.0">Java.Model.MediaItem.Record.RecordGenre</node>
+                <node x="802.9496446014305" y="139.0">Java.Model.MediaItem.MediaItem</node>
+                <node x="1429.0892857142856" y="487.5">Java.Model.MediaItem.Movie.Movie</node>
+                <node x="1474.083618960405" y="1177.0">Java.Controller.Manager</node>
+                <node x="1021.0892857142856" y="416.0">Java.Model.Persistence.Mediatheque</node>
+                <node x="1849.1142857142856" y="200.0">Java.Model.MediaItem.Interfaces.Listenable</node>
+                <node x="354.01688034188055" y="200.0">Java.Model.MediaItem.Interfaces.Readable</node>
+                <node x="1524.1142857142856" y="164.0">Java.Model.MediaItem.Movie.MovieGenre</node>
+                <node x="1807.3892857142857" y="499.5">Java.Model.MediaItem.Record.Record</node>
+                <node x="1679.4059523809524" y="0.0">Java.Model.Operator.Operators</node>
+                <node x="825.0892857142856" y="916.0">Java.Controller.User</node>
+                <node x="151.5178571428571" y="176.0">Java.Model.MediaItem.Magazine.MagazineGenre</node>
+                <node x="494.08928571428555" y="487.5">Java.Model.MediaItem.Book.Book</node>
+                <node x="10.51785714285711" y="176.0">Java.Model.MediaItem.Magazine.Periodicity</node>
+                <node x="50.08928571428555" y="487.5">Java.Model.MediaItem.Magazine.Magazine</node>
+                <node x="1938.5058804290948" y="738.0">Java.Model.Operator.Operator</node>
+                <node x="1675.1142857142856" y="200.0">Java.Model.MediaItem.Interfaces.Watchable</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="Model.Operator.Operator" target="Model.Operator.Operators">
-                  <point x="-91.0" y="-64.0" />
-                  <point x="1353.169642857143" y="109.0" />
-                  <point x="1392.5267857142858" y="109.0" />
-                  <point x="-14.875" y="39.5" />
+                <edge source="Java.Controller.Manager" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-150.41666666666652" y="-100.0" />
+                  <point x="1504.1669522937384" y="1157.0" />
+                  <point x="814.5892857142856" y="1157.0" />
+                  <point x="814.5892857142856" y="386.0" />
+                  <point x="916.8342599860458" y="386.0" />
+                  <point x="-50.61538461538464" y="88.5" />
                 </edge>
-                <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.Book.BookGenre">
-                  <point x="-56.25" y="-39.5" />
-                  <point x="0.0" y="63.5" />
+                <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Interfaces.Listenable">
+                  <point x="0.0" y="-52.5" />
+                  <point x="1961.3892857142857" y="396.0" />
+                  <point x="1924.1142857142856" y="396.0" />
+                  <point x="0.0" y="27.5" />
                 </edge>
-                <edge source="Controller.User" target="Model.Operator.Operators">
-                  <point x="124.125" y="-27.5" />
-                  <point x="1728.3482142857142" y="426.0" />
-                  <point x="1677.955357142857" y="426.0" />
-                  <point x="1677.955357142857" y="99.0" />
-                  <point x="1452.0267857142858" y="99.0" />
-                  <point x="44.625" y="39.5" />
+                <edge source="Java.Model.Operator.Operator" target="Java.Model.Persistence.Mediatheque">
+                  <point x="-136.5" y="-64.0" />
+                  <point x="1984.0058804290948" y="718.0" />
+                  <point x="1263.5892857142856" y="718.0" />
+                  <point x="48.5" y="136.0" />
                 </edge>
-                <edge source="Model.Persistence.Mediatheque" target="Model.Operator.Operator">
-                  <point x="-37.875" y="-39.5" />
-                  <point x="1206.875" y="277.0" />
-                  <point x="1288.169642857143" y="277.0" />
-                  <point x="-156.0" y="64.0" />
+                <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Interfaces.Watchable">
+                  <point x="128.80000000000018" y="-64.5" />
+                  <point x="1718.8892857142857" y="396.0" />
+                  <point x="1752.1142857142856" y="396.0" />
+                  <point x="0.0" y="27.5" />
                 </edge>
-                <edge source="Controller.Manager" target="Model.Operator.Operators">
-                  <point x="-135.375" y="-27.5" />
-                  <point x="1102.8482142857142" y="426.0" />
-                  <point x="0.0" y="426.0" />
+                <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.MediaItem.MediaItem">
+                  <point x="0.0" y="-136.0" />
+                  <point x="1215.0892857142856" y="386.0" />
+                  <point x="1018.065029216815" y="386.0" />
+                  <point x="50.61538461538453" y="88.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Movie.MovieGenre">
+                  <point x="0.0" y="-64.5" />
+                  <point x="1590.0892857142856" y="396.0" />
+                  <point x="1556.8642857142856" y="396.0" />
+                  <point x="-32.75" y="63.5" />
+                </edge>
+                <edge source="Java.Controller.Manager" target="Java.Controller.User">
+                  <point x="-90.25" y="-100.0" />
+                  <point x="1564.333618960405" y="1147.0" />
+                  <point x="990.5892857142856" y="1147.0" />
+                  <point x="0.0" y="100.5" />
+                </edge>
+                <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.Operator.Operators">
+                  <point x="129.33333333333326" y="-136.0" />
+                  <point x="1344.4226190476188" y="119.0" />
+                  <point x="1728.9892857142856" y="119.0" />
+                  <point x="-9.916666666666742" y="39.5" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.MediaItem">
+                  <point x="124.0" y="-64.5" />
+                  <point x="773.0892857142856" y="376.0" />
+                  <point x="891.5265676783536" y="376.0" />
+                  <point x="-75.9230769230769" y="88.5" />
+                </edge>
+                <edge source="Java.Controller.Manager" target="Java.Model.Persistence.Mediatheque">
+                  <point x="-30.083333333333258" y="-100.0" />
+                  <point x="1624.5002856270717" y="1137.0" />
+                  <point x="1166.5892857142856" y="1137.0" />
+                  <point x="-48.5" y="136.0" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.Periodicity">
+                  <point x="-181.71428571428572" y="-64.5" />
+                  <point x="80.37499999999977" y="396.0" />
+                  <point x="40.76785714285711" y="396.0" />
+                  <point x="-30.25" y="51.5" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.Operator.Operator">
+                  <point x="137.91666666666674" y="-100.5" />
+                  <point x="1128.5059523809523" y="896.0" />
+                  <point x="2075.0058804290948" y="896.0" />
+                  <point x="-45.5" y="64.0" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Interfaces.Readable">
+                  <point x="60.571428571428555" y="-64.5" />
+                  <point x="322.6607142857141" y="336.0" />
+                  <point x="389.76688034188055" y="336.0" />
+                  <point x="-35.75" y="27.5" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.Persistence.Mediatheque">
+                  <point x="27.58333333333337" y="-100.5" />
+                  <point x="1018.172619047619" y="896.0" />
+                  <point x="979.4813906331763" y="896.0" />
+                  <point x="979.4813906331763" y="718.0" />
+                  <point x="1069.5892857142856" y="718.0" />
+                  <point x="-145.5" y="136.0" />
+                </edge>
+                <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Book.BookGenre">
+                  <point x="-62.0" y="-64.5" />
+                  <point x="587.0892857142856" y="336.0" />
+                  <point x="599.3392857142856" y="336.0" />
+                  <point x="-31.25" y="63.5" />
+                </edge>
+                <edge source="Java.Controller.User" target="Java.Model.Operator.Operators">
+                  <point x="-137.91666666666663" y="-100.5" />
+                  <point x="852.672619047619" y="896.0" />
+                  <point x="0.0" y="896.0" />
                   <point x="0.0" y="99.0" />
-                  <point x="1362.7767857142858" y="99.0" />
-                  <point x="-44.625" y="39.5" />
+                  <point x="1689.3226190476191" y="99.0" />
+                  <point x="-49.58333333333326" y="39.5" />
                 </edge>
-                <edge source="Controller.Manager" target="Model.Persistence.Mediatheque">
-                  <point x="-45.125" y="-27.5" />
-                  <point x="1193.0982142857142" y="426.0" />
-                  <point x="1169.0" y="426.0" />
-                  <point x="-75.75" y="39.5" />
+                <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Record.RecordGenre">
+                  <point x="123.20000000000005" y="-52.5" />
+                  <point x="2084.589285714286" y="396.0" />
+                  <point x="2121.864285714286" y="396.0" />
+                  <point x="34.25" y="51.5" />
                 </edge>
-                <edge source="Model.Persistence.Mediatheque" target="Model.MediaItem.MediaItem">
-                  <point x="-113.625" y="-39.5" />
-                  <point x="1131.125" y="277.0" />
-                  <point x="723.0500000000001" y="277.0" />
-                  <point x="74.80000000000007" y="39.5" />
+                <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-123.20000000000005" y="-52.5" />
+                  <point x="1838.1892857142857" y="356.0" />
+                  <point x="1093.988106139892" y="356.0" />
+                  <point x="126.53846153846155" y="88.5" />
                 </edge>
-                <edge source="Model.MediaItem.Book.Book" target="Model.MediaItem.MediaItem">
-                  <point x="56.25" y="-39.5" />
-                  <point x="453.0" y="287.0" />
-                  <point x="610.85" y="287.0" />
-                  <point x="-37.39999999999998" y="39.5" />
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.MagazineGenre">
+                  <point x="0.0" y="-64.5" />
+                  <point x="262.08928571428555" y="396.0" />
+                  <point x="267.7678571428571" y="396.0" />
+                  <point x="38.75" y="51.5" />
                 </edge>
-                <edge source="Controller.User" target="Model.Persistence.Mediatheque">
-                  <point x="-124.125" y="-27.5" />
-                  <point x="1480.0982142857142" y="406.0" />
-                  <point x="1320.5" y="406.0" />
-                  <point x="75.75" y="39.5" />
+                <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-128.79999999999995" y="-64.5" />
+                  <point x="1461.2892857142856" y="376.0" />
+                  <point x="1043.3727215245071" y="376.0" />
+                  <point x="75.92307692307679" y="88.5" />
                 </edge>
-                <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.MediaItem">
-                  <point x="61.75" y="-27.5" />
-                  <point x="202.5" y="277.0" />
-                  <point x="573.45" y="277.0" />
-                  <point x="-74.79999999999995" y="39.5" />
+                <edge source="Java.Model.MediaItem.MediaItem" target="Java.Model.Operator.Operators">
+                  <point x="-1.1368683772161603E-13" y="-88.5" />
+                  <point x="967.4496446014304" y="109.0" />
+                  <point x="1709.1559523809524" y="109.0" />
+                  <point x="-29.75" y="39.5" />
                 </edge>
-                <edge source="Model.MediaItem.Movie.Movie" target="Model.MediaItem.MediaItem">
-                  <point x="0.0" y="-39.5" />
-                  <point x="0.0" y="39.5" />
+                <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operators">
+                  <point x="150.41666666666674" y="-100.0" />
+                  <point x="1805.0002856270717" y="1157.0" />
+                  <point x="2313.0058804290948" y="1157.0" />
+                  <point x="2313.0058804290948" y="99.0" />
+                  <point x="1788.4892857142856" y="99.0" />
+                  <point x="49.58333333333326" y="39.5" />
                 </edge>
-                <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.MediaItem">
-                  <point x="-71.5" y="-39.5" />
-                  <point x="858.75" y="287.0" />
-                  <point x="685.65" y="287.0" />
-                  <point x="37.39999999999998" y="39.5" />
+                <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Interfaces.Readable">
+                  <point x="-124.0" y="-64.5" />
+                  <point x="525.0892857142856" y="336.0" />
+                  <point x="461.26688034188055" y="336.0" />
+                  <point x="35.75" y="27.5" />
                 </edge>
-                <edge source="Controller.User" target="Model.Operator.Operator">
-                  <point x="-41.375" y="-27.5" />
-                  <point x="1562.8482142857142" y="426.0" />
-                  <point x="1623.3035714285716" y="426.0" />
-                  <point x="1623.3035714285716" y="287.0" />
-                  <point x="1548.1696428571427" y="287.0" />
-                  <point x="103.99999999999994" y="64.0" />
+                <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operator">
+                  <point x="30.083333333333258" y="-100.0" />
+                  <point x="1684.6669522937382" y="1137.0" />
+                  <point x="2206.0058804290948" y="1137.0" />
+                  <point x="2206.0058804290948" y="896.0" />
+                  <point x="2166.0058804290948" y="896.0" />
+                  <point x="45.5" y="64.0" />
                 </edge>
-                <edge source="Model.Operator.Operator" target="Model.Persistence.Mediatheque">
-                  <point x="-52.0" y="64.0" />
-                  <point x="1392.169642857143" y="287.0" />
-                  <point x="1358.375" y="287.0" />
-                  <point x="113.625" y="-39.5" />
+                <edge source="Java.Model.Operator.Operator" target="Java.Model.Operator.Operators">
+                  <point x="136.5" y="-64.0" />
+                  <point x="2257.0058804290948" y="718.0" />
+                  <point x="2223.166442089657" y="718.0" />
+                  <point x="2223.166442089657" y="109.0" />
+                  <point x="1768.6559523809524" y="109.0" />
+                  <point x="29.75" y="39.5" />
                 </edge>
-                <edge source="Model.MediaItem.Magazine.Magazine" target="Model.MediaItem.Magazine.MagazineGenre">
-                  <point x="71.5" y="-39.5" />
-                  <point x="0.0" y="51.5" />
+                <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.MediaItem">
+                  <point x="121.14285714285711" y="-64.5" />
+                  <point x="383.23214285714266" y="346.0" />
+                  <point x="815.6034907552767" y="346.0" />
+                  <point x="-151.8461538461538" y="88.5" />
                 </edge>
-                <edge source="Model.MediaItem.Record.Record" target="Model.MediaItem.Record.RecordGenre">
-                  <point x="-61.75" y="-27.5" />
-                  <point x="0.0" y="51.5" />
-                </edge>
-                <edge source="Controller.Manager" target="Model.Operator.Operator">
-                  <point x="135.375" y="-27.5" />
-                  <point x="1373.5982142857142" y="426.0" />
-                  <point x="1477.1071428571427" y="426.0" />
-                  <point x="1477.1071428571427" y="287.0" />
-                  <point x="1496.1696428571427" y="287.0" />
-                  <point x="51.99999999999994" y="64.0" />
+                <edge source="Java.Controller.User" target="Java.Model.MediaItem.MediaItem">
+                  <point x="-82.75" y="-100.5" />
+                  <point x="907.8392857142856" y="896.0" />
+                  <point x="918.1725470957614" y="896.0" />
+                  <point x="918.1725470957614" y="396.0" />
+                  <point x="942.1419522937382" y="396.0" />
+                  <point x="-25.307692307692264" y="88.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.6192660550458715" x="367.5555555555556" y="276.4555555555556" />
-              <SelectedNodes>
-                <node>Model.MediaItem.Movie.Movie</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="0.7209354120267261" x="312.90083410565336" y="474.90083410565336" />
+              <SelectedNodes />
               <Categories>
                 <Category>Fields</Category>
                 <Category>Constructors</Category>
@@ -199,59 +598,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Periodicity.java">
+        <entry file="file://$PROJECT_DIR$/src/Java/Model/Persistence/Mediatheque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -265,8 +627,12 @@
         <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -278,7 +644,6 @@
         <option value="$PROJECT_DIR$/src/Model/Operator/User.java" />
         <option value="$PROJECT_DIR$/src/Model/Operator/Manager.java" />
         <option value="$PROJECT_DIR$/src/Model/Persistence/Persistence.java" />
-        <option value="$PROJECT_DIR$/src/Controller/User.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Book/BookGenres.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Magazine/MagazineGenres.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Movie/MovieGenres.java" />
@@ -287,26 +652,142 @@
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Listenable.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Readable.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Watchable.java" />
-        <option value="$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java" />
         <option value="$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java" />
+        <option value="$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java" />
+        <option value="$PROJECT_DIR$/src/Controller/User.java" />
+        <option value="$PROJECT_DIR$/src/Model/Persistence/Mediatheque.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Java/Model/MediaItem/MediaItem.java" />
+        <option value="$PROJECT_DIR$/src/Tests/Java/Controller/ManagerTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="61" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="234" />
+    <option name="y" value="359" />
     <option name="width" value="1305" />
-    <option name="height" value="716" />
+    <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MediaItem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MediaItem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Book" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MediaItem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Interfaces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MediaItem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Magazine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MediaItem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Movie" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MediaItem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Record" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Operator" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Persistence" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -324,66 +805,7 @@
               <item name="PA" type="b2602c69:ProjectViewProjectNode" />
               <item name="PA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
-              <item name="Magazine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="MediaItem" type="462c0819:PsiDirectoryNode" />
-              <item name="Movie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,9 +814,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548063692680" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548068635805" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Diagrams" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Java.Controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -408,17 +848,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.ManagerTest">
+    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PA" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Java.Controller.ManagerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManagerTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Java.Controller.ManagerTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.editItemAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Java.Controller.ManagerTest" />
+      <option name="METHOD_NAME" value="editItemAuthor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.editRelaseDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Java.Controller.ManagerTest" />
+      <option name="METHOD_NAME" value="editRelaseDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.removeUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.Controller" />
+      <option name="MAIN_CLASS_NAME" value="Java.Controller.ManagerTest" />
+      <option name="METHOD_NAME" value="removeUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ManagerTest.addUser" />
+      <item itemvalue="JUnit.ManagerTest.removeUser" />
+      <item itemvalue="JUnit.ManagerTest.editItemAuthor" />
+      <item itemvalue="JUnit.ManagerTest.editRelaseDate" />
+      <item itemvalue="JUnit.ManagerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManagerTest" />
+        <item itemvalue="JUnit.ManagerTest.editRelaseDate" />
+        <item itemvalue="JUnit.ManagerTest.editItemAuthor" />
+        <item itemvalue="JUnit.ManagerTest.removeUser" />
+        <item itemvalue="JUnit.ManagerTest.addUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -430,12 +954,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548058774290</updated>
-      <workItem from="1548058779281" duration="4778000" />
+      <workItem from="1548058779281" duration="9579000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ManagerTest_addItem - 2019.01.21 at 11h 53m 32s.xml">
+      <configuration name="ManagerTest.addItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_addItem - 2019.01.21 at 11h 54m 16s.xml">
+      <configuration name="ManagerTest.addItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeItem - 2019.01.21 at 11h 54m 51s.xml">
+      <configuration name="ManagerTest.removeItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_addUser - 2019.01.21 at 11h 55m 51s.xml">
+      <configuration name="ManagerTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeUser - 2019.01.21 at 11h 56m 42s.xml">
+      <configuration name="ManagerTest.removeUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_editItemAuthor - 2019.01.21 at 11h 57m 46s.xml">
+      <configuration name="ManagerTest.editItemAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_editItemAuthor - 2019.01.21 at 11h 58m 32s.xml">
+      <configuration name="ManagerTest.editItemAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_editRelaseDate - 2019.01.21 at 11h 59m 48s.xml">
+      <configuration name="ManagerTest.editRelaseDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_editRelaseDate - 2019.01.21 at 11h 59m 51s.xml">
+      <configuration name="ManagerTest.editRelaseDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.01.21 at 11h 59m 57s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4778000" />
+    <option name="totallyTimeSpent" value="9579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="-4" width="1305" height="772" extended-state="6" />
@@ -445,16 +1001,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32868218" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="Terminal" weight="0.26046512" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,13 +1031,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/Main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -638,57 +1188,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Operator/Operators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Persistence/Persistence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Operator/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Persistence/Mediatheque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,35 +1323,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Book/BookGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Book/BookGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/MagazineGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Magazine/MagazineGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Movie/MovieGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Movie/MovieGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Record/RecordGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Record/RecordGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Periodicity.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Magazine/Periodicity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
@@ -999,80 +1502,966 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/MediaItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Record/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Movie/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Magazine/Magazine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Book/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Listenable.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Interfaces/Listenable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Readable.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Interfaces/Readable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MediaItem/Interfaces/Watchable.java">
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Interfaces/Watchable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/janex/java/PA/src/Model/MediaItem/Book">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Model/MediaItem/Book</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Record/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Movie/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Magazine/Magazine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/Book/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="528" column="35" selection-start-line="528" selection-start-column="35" selection-end-line="528" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Model.Persistence.Mediatheque">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Model.Persistence.Mediatheque</OriginalElement>
+          <nodes>
+            <node x="0.0" y="975.0">Java.Controller.Manager</node>
+            <node x="859.6993246336995" y="129.0">Java.Model.MediaItem.MediaItem</node>
+            <node x="1446.647278502747" y="452.0">Java.Model.MediaItem.Book.Book</node>
+            <node x="234.29999999999995" y="416.0">Java.Controller.User</node>
+            <node x="1365.9493246336995" y="190.0">Java.Model.MediaItem.Interfaces.Watchable</node>
+            <node x="1104.647278502747" y="452.0">Java.Model.MediaItem.Movie.Movie</node>
+            <node x="1726.9493246336995" y="190.0">Java.Model.MediaItem.Interfaces.Readable</node>
+            <node x="1557.647278502747" y="154.0">Java.Model.MediaItem.Book.BookGenre</node>
+            <node x="491.2489211309522" y="166.0">Java.Model.MediaItem.Record.RecordGenre</node>
+            <node x="1208.6993246336995" y="154.0">Java.Model.MediaItem.Movie.MovieGenre</node>
+            <node x="689.6993246336995" y="190.0">Java.Model.MediaItem.Interfaces.Listenable</node>
+            <node x="18.383333333333212" y="153.5">Java.Model.Operator.Operator</node>
+            <node x="1927.2544213598899" y="166.0">Java.Model.MediaItem.Magazine.MagazineGenre</node>
+            <node x="2102.25442135989" y="166.0">Java.Model.MediaItem.Magazine.Periodicity</node>
+            <node x="1776.647278502747" y="452.0">Java.Model.MediaItem.Magazine.Magazine</node>
+            <node x="240.69932463369946" y="677.0">Java.Model.Persistence.Mediatheque</node>
+            <node x="222.8562872023807" y="0.0">Java.Model.Operator.Operators</node>
+            <node x="585.3" y="464.0">Java.Model.MediaItem.Record.Record</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Java.Controller.Manager" target="Java.Model.MediaItem.MediaItem">
+              <point x="144.4000000000001" y="-76.0" />
+              <point x="324.9000000000001" y="955.0" />
+              <point x="1009.8916323260072" y="955.0" />
+              <point x="1009.8916323260072" y="396.0" />
+              <point x="1024.1993246336995" y="396.0" />
+              <point x="0.0" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Interfaces.Listenable">
+              <point x="0.0" y="-52.5" />
+              <point x="739.3" y="336.0" />
+              <point x="764.6993246336995" y="336.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Interfaces.Watchable">
+              <point x="128.79999999999995" y="-64.5" />
+              <point x="1394.447278502747" y="396.0" />
+              <point x="1442.9493246336995" y="396.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="Java.Model.Operator.Operator" target="Java.Model.Persistence.Mediatheque">
+              <point x="30.333333333333485" y="64.0" />
+              <point x="230.7166666666667" y="396.0" />
+              <point x="196.85628720238083" y="396.0" />
+              <point x="196.85628720238083" y="647.0" />
+              <point x="319.77075320512813" y="647.0" />
+              <point x="-105.42857142857133" y="-124.0" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.MediaItem.MediaItem">
+              <point x="105.42857142857156" y="-124.0" />
+              <point x="530.627896062271" y="647.0" />
+              <point x="947.8203497023808" y="647.0" />
+              <point x="947.8203497023808" y="386.0" />
+              <point x="973.5839400183149" y="386.0" />
+              <point x="-50.61538461538453" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Movie.MovieGenre">
+              <point x="0.0" y="-64.5" />
+              <point x="1265.647278502747" y="396.0" />
+              <point x="1241.4493246336995" y="396.0" />
+              <point x="-32.75" y="63.5" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Controller.User">
+              <point x="0.0" y="-124.0" />
+              <point x="425.19932463369946" y="657.0" />
+              <point x="399.79999999999995" y="657.0" />
+              <point x="0.0" y="100.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.MediaItem">
+              <point x="-124.0" y="-64.5" />
+              <point x="1477.647278502747" y="376.0" />
+              <point x="1100.1224015567764" y="376.0" />
+              <point x="75.9230769230769" y="88.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Persistence.Mediatheque">
+              <point x="72.20000000000005" y="-76.0" />
+              <point x="252.70000000000005" y="945.0" />
+              <point x="425.19932463369946" y="945.0" />
+              <point x="0.0" y="124.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.Periodicity">
+              <point x="181.71428571428572" y="-64.5" />
+              <point x="2170.3615642170325" y="396.0" />
+              <point x="2193.00442135989" y="396.0" />
+              <point x="30.25" y="51.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Operator.Operator">
+              <point x="-132.4000000000001" y="-100.5" />
+              <point x="267.39999999999986" y="396.0" />
+              <point x="291.3833333333332" y="396.0" />
+              <point x="91.0" y="64.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Interfaces.Readable">
+              <point x="-60.57142857142861" y="-64.5" />
+              <point x="1928.0758499313183" y="336.0" />
+              <point x="1834.1993246336995" y="336.0" />
+              <point x="35.75" y="27.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Persistence.Mediatheque">
+              <point x="110.33333333333326" y="100.5" />
+              <point x="510.1333333333332" y="657.0" />
+              <point x="477.91361034798524" y="657.0" />
+              <point x="52.71428571428578" y="-124.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Book.BookGenre">
+              <point x="62.0" y="-64.5" />
+              <point x="1663.647278502747" y="396.0" />
+              <point x="1651.397278502747" y="396.0" />
+              <point x="31.25" y="63.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Operator.Operators">
+              <point x="0.0" y="-100.5" />
+              <point x="399.79999999999995" y="109.0" />
+              <point x="306.15628720238067" y="109.0" />
+              <point x="23.799999999999955" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Record.RecordGenre">
+              <point x="-61.59999999999991" y="-52.5" />
+              <point x="677.7" y="326.0" />
+              <point x="593.9989211309522" y="326.0" />
+              <point x="34.25" y="51.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.MediaItem">
+              <point x="123.20000000000005" y="-52.5" />
+              <point x="862.5" y="376.0" />
+              <point x="948.2762477106226" y="376.0" />
+              <point x="-75.9230769230769" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.MagazineGenre">
+              <point x="60.571428571428555" y="-64.5" />
+              <point x="2049.2187070741757" y="396.0" />
+              <point x="2043.5044213598899" y="396.0" />
+              <point x="38.75" y="51.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.MediaItem">
+              <point x="-128.79999999999995" y="-64.5" />
+              <point x="1136.847278502747" y="396.0" />
+              <point x="1049.5070169413918" y="396.0" />
+              <point x="25.307692307692378" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.MediaItem" target="Java.Model.Operator.Operators">
+              <point x="0.0" y="-88.5" />
+              <point x="1024.1993246336995" y="99.0" />
+              <point x="329.9562872023806" y="99.0" />
+              <point x="47.59999999999991" y="39.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operators">
+              <point x="-144.4000000000001" y="-76.0" />
+              <point x="36.09999999999991" y="955.0" />
+              <point x="7.883333333333212" y="955.0" />
+              <point x="7.883333333333212" y="99.0" />
+              <point x="234.7562872023808" y="99.0" />
+              <point x="-47.59999999999991" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Interfaces.Readable">
+              <point x="124.0" y="-64.5" />
+              <point x="1725.647278502747" y="396.0" />
+              <point x="1762.6993246336995" y="396.0" />
+              <point x="-35.75" y="27.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operator">
+              <point x="-72.20000000000005" y="-76.0" />
+              <point x="108.29999999999995" y="955.0" />
+              <point x="139.5889451694136" y="955.0" />
+              <point x="139.5889451694136" y="396.0" />
+              <point x="48.71666666666647" y="396.0" />
+              <point x="-151.66666666666674" y="64.0" />
+            </edge>
+            <edge source="Java.Model.Operator.Operator" target="Java.Model.Operator.Operators">
+              <point x="-91.0" y="-64.0" />
+              <point x="109.38333333333321" y="109.0" />
+              <point x="258.55628720238076" y="109.0" />
+              <point x="-23.799999999999955" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.MediaItem">
+              <point x="-181.71428571428572" y="-64.5" />
+              <point x="1806.9329927884612" y="356.0" />
+              <point x="1150.737786172161" y="356.0" />
+              <point x="126.53846153846143" y="88.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.MediaItem.MediaItem">
+              <point x="66.20000000000005" y="-100.5" />
+              <point x="466.0" y="346.0" />
+              <point x="872.3531707875457" y="346.0" />
+              <point x="-151.8461538461538" y="88.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8211229946524063" x="282.28264408987303" y="981.282644089873" />
+          <SelectedNodes>
+            <node>Java.Model.MediaItem.Book.BookGenre</node>
+            <node>Java.Model.MediaItem.MediaItem</node>
+            <node>Java.Model.MediaItem.Record.RecordGenre</node>
+            <node>Java.Model.MediaItem.Movie.Movie</node>
+            <node>Java.Controller.Manager</node>
+            <node>Java.Model.Persistence.Mediatheque</node>
+            <node>Java.Model.MediaItem.Interfaces.Readable</node>
+            <node>Java.Model.MediaItem.Interfaces.Listenable</node>
+            <node>Java.Model.MediaItem.Movie.MovieGenre</node>
+            <node>Java.Model.MediaItem.Record.Record</node>
+            <node>Java.Controller.User</node>
+            <node>Java.Model.Operator.Operators</node>
+            <node>Java.Model.MediaItem.Book.Book</node>
+            <node>Java.Model.MediaItem.Magazine.MagazineGenre</node>
+            <node>Java.Model.MediaItem.Magazine.Periodicity</node>
+            <node>Java.Model.MediaItem.Magazine.Magazine</node>
+            <node>Java.Model.Operator.Operator</node>
+            <node>Java.Model.MediaItem.Interfaces.Watchable</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Controller/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/Persistence/Mediatheque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Model.MediaItem.Movie.Movie">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Model.MediaItem.Movie.Movie</OriginalElement>
+          <nodes>
+            <node x="568.0892857142856" y="164.0">Java.Model.MediaItem.Book.BookGenre</node>
+            <node x="2019.1142857142856" y="176.0">Java.Model.MediaItem.Record.RecordGenre</node>
+            <node x="802.9496446014305" y="139.0">Java.Model.MediaItem.MediaItem</node>
+            <node x="1429.0892857142856" y="487.5">Java.Model.MediaItem.Movie.Movie</node>
+            <node x="1474.083618960405" y="1177.0">Java.Controller.Manager</node>
+            <node x="1021.0892857142856" y="416.0">Java.Model.Persistence.Mediatheque</node>
+            <node x="1849.1142857142856" y="200.0">Java.Model.MediaItem.Interfaces.Listenable</node>
+            <node x="354.01688034188055" y="200.0">Java.Model.MediaItem.Interfaces.Readable</node>
+            <node x="1524.1142857142856" y="164.0">Java.Model.MediaItem.Movie.MovieGenre</node>
+            <node x="1807.3892857142857" y="499.5">Java.Model.MediaItem.Record.Record</node>
+            <node x="1679.4059523809524" y="0.0">Java.Model.Operator.Operators</node>
+            <node x="825.0892857142856" y="916.0">Java.Controller.User</node>
+            <node x="151.5178571428571" y="176.0">Java.Model.MediaItem.Magazine.MagazineGenre</node>
+            <node x="494.08928571428555" y="487.5">Java.Model.MediaItem.Book.Book</node>
+            <node x="10.51785714285711" y="176.0">Java.Model.MediaItem.Magazine.Periodicity</node>
+            <node x="50.08928571428555" y="487.5">Java.Model.MediaItem.Magazine.Magazine</node>
+            <node x="1938.5058804290948" y="738.0">Java.Model.Operator.Operator</node>
+            <node x="1675.1142857142856" y="200.0">Java.Model.MediaItem.Interfaces.Watchable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Java.Controller.Manager" target="Java.Model.MediaItem.MediaItem">
+              <point x="-150.41666666666652" y="-100.0" />
+              <point x="1504.1669522937384" y="1157.0" />
+              <point x="814.5892857142856" y="1157.0" />
+              <point x="814.5892857142856" y="386.0" />
+              <point x="916.8342599860458" y="386.0" />
+              <point x="-50.61538461538464" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Interfaces.Listenable">
+              <point x="0.0" y="-52.5" />
+              <point x="1961.3892857142857" y="396.0" />
+              <point x="1924.1142857142856" y="396.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="Java.Model.Operator.Operator" target="Java.Model.Persistence.Mediatheque">
+              <point x="-136.5" y="-64.0" />
+              <point x="1984.0058804290948" y="718.0" />
+              <point x="1263.5892857142856" y="718.0" />
+              <point x="48.5" y="136.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Interfaces.Watchable">
+              <point x="128.80000000000018" y="-64.5" />
+              <point x="1718.8892857142857" y="396.0" />
+              <point x="1752.1142857142856" y="396.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.MediaItem.MediaItem">
+              <point x="0.0" y="-136.0" />
+              <point x="1215.0892857142856" y="386.0" />
+              <point x="1018.065029216815" y="386.0" />
+              <point x="50.61538461538453" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Movie.MovieGenre">
+              <point x="0.0" y="-64.5" />
+              <point x="1590.0892857142856" y="396.0" />
+              <point x="1556.8642857142856" y="396.0" />
+              <point x="-32.75" y="63.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Controller.User">
+              <point x="-90.25" y="-100.0" />
+              <point x="1564.333618960405" y="1147.0" />
+              <point x="990.5892857142856" y="1147.0" />
+              <point x="0.0" y="100.5" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.Operator.Operators">
+              <point x="129.33333333333326" y="-136.0" />
+              <point x="1344.4226190476188" y="119.0" />
+              <point x="1728.9892857142856" y="119.0" />
+              <point x="-9.916666666666742" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.MediaItem">
+              <point x="124.0" y="-64.5" />
+              <point x="773.0892857142856" y="376.0" />
+              <point x="891.5265676783536" y="376.0" />
+              <point x="-75.9230769230769" y="88.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Persistence.Mediatheque">
+              <point x="-30.083333333333258" y="-100.0" />
+              <point x="1624.5002856270717" y="1137.0" />
+              <point x="1166.5892857142856" y="1137.0" />
+              <point x="-48.5" y="136.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.Periodicity">
+              <point x="-181.71428571428572" y="-64.5" />
+              <point x="80.37499999999977" y="396.0" />
+              <point x="40.76785714285711" y="396.0" />
+              <point x="-30.25" y="51.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Operator.Operator">
+              <point x="137.91666666666674" y="-100.5" />
+              <point x="1128.5059523809523" y="896.0" />
+              <point x="2075.0058804290948" y="896.0" />
+              <point x="-45.5" y="64.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Interfaces.Readable">
+              <point x="60.571428571428555" y="-64.5" />
+              <point x="322.6607142857141" y="336.0" />
+              <point x="389.76688034188055" y="336.0" />
+              <point x="-35.75" y="27.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Persistence.Mediatheque">
+              <point x="27.58333333333337" y="-100.5" />
+              <point x="1018.172619047619" y="896.0" />
+              <point x="979.4813906331763" y="896.0" />
+              <point x="979.4813906331763" y="718.0" />
+              <point x="1069.5892857142856" y="718.0" />
+              <point x="-145.5" y="136.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Book.BookGenre">
+              <point x="-62.0" y="-64.5" />
+              <point x="587.0892857142856" y="336.0" />
+              <point x="599.3392857142856" y="336.0" />
+              <point x="-31.25" y="63.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Operator.Operators">
+              <point x="-137.91666666666663" y="-100.5" />
+              <point x="852.672619047619" y="896.0" />
+              <point x="0.0" y="896.0" />
+              <point x="0.0" y="99.0" />
+              <point x="1689.3226190476191" y="99.0" />
+              <point x="-49.58333333333326" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Record.RecordGenre">
+              <point x="123.20000000000005" y="-52.5" />
+              <point x="2084.589285714286" y="396.0" />
+              <point x="2121.864285714286" y="396.0" />
+              <point x="34.25" y="51.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.MediaItem">
+              <point x="-123.20000000000005" y="-52.5" />
+              <point x="1838.1892857142857" y="356.0" />
+              <point x="1093.988106139892" y="356.0" />
+              <point x="126.53846153846155" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.MagazineGenre">
+              <point x="0.0" y="-64.5" />
+              <point x="262.08928571428555" y="396.0" />
+              <point x="267.7678571428571" y="396.0" />
+              <point x="38.75" y="51.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.MediaItem">
+              <point x="-128.79999999999995" y="-64.5" />
+              <point x="1461.2892857142856" y="376.0" />
+              <point x="1043.3727215245071" y="376.0" />
+              <point x="75.92307692307679" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.MediaItem" target="Java.Model.Operator.Operators">
+              <point x="-1.1368683772161603E-13" y="-88.5" />
+              <point x="967.4496446014304" y="109.0" />
+              <point x="1709.1559523809524" y="109.0" />
+              <point x="-29.75" y="39.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operators">
+              <point x="150.41666666666674" y="-100.0" />
+              <point x="1805.0002856270717" y="1157.0" />
+              <point x="2313.0058804290948" y="1157.0" />
+              <point x="2313.0058804290948" y="99.0" />
+              <point x="1788.4892857142856" y="99.0" />
+              <point x="49.58333333333326" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Interfaces.Readable">
+              <point x="-124.0" y="-64.5" />
+              <point x="525.0892857142856" y="336.0" />
+              <point x="461.26688034188055" y="336.0" />
+              <point x="35.75" y="27.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operator">
+              <point x="30.083333333333258" y="-100.0" />
+              <point x="1684.6669522937382" y="1137.0" />
+              <point x="2206.0058804290948" y="1137.0" />
+              <point x="2206.0058804290948" y="896.0" />
+              <point x="2166.0058804290948" y="896.0" />
+              <point x="45.5" y="64.0" />
+            </edge>
+            <edge source="Java.Model.Operator.Operator" target="Java.Model.Operator.Operators">
+              <point x="136.5" y="-64.0" />
+              <point x="2257.0058804290948" y="718.0" />
+              <point x="2223.166442089657" y="718.0" />
+              <point x="2223.166442089657" y="109.0" />
+              <point x="1768.6559523809524" y="109.0" />
+              <point x="29.75" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.MediaItem">
+              <point x="121.14285714285711" y="-64.5" />
+              <point x="383.23214285714266" y="346.0" />
+              <point x="815.6034907552767" y="346.0" />
+              <point x="-151.8461538461538" y="88.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.MediaItem.MediaItem">
+              <point x="-82.75" y="-100.5" />
+              <point x="907.8392857142856" y="896.0" />
+              <point x="918.1725470957614" y="896.0" />
+              <point x="918.1725470957614" y="396.0" />
+              <point x="942.1419522937382" y="396.0" />
+              <point x="-25.307692307692264" y="88.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7209354120267261" x="312.90083410565336" y="474.90083410565336" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/Operator/Operators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/Operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Model/MediaItem/MediaItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/Controller/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/Java/Controller/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="85" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Java.Model.Persistence.Mediatheque">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Java.Model.Persistence.Mediatheque</OriginalElement>
+          <nodes>
+            <node x="571.7142857142857" y="164.0">Java.Model.MediaItem.Book.BookGenre</node>
+            <node x="2125.114652014652" y="176.0">Java.Model.MediaItem.Record.RecordGenre</node>
+            <node x="880.0431519699812" y="139.0">Java.Model.MediaItem.MediaItem</node>
+            <node x="1466.114652014652" y="452.0">Java.Model.MediaItem.Movie.Movie</node>
+            <node x="1144.3947601179311" y="1177.0">Java.Controller.Manager</node>
+            <node x="886.9598186366477" y="667.0">Java.Model.Persistence.Mediatheque</node>
+            <node x="1955.1146520146522" y="200.0">Java.Model.MediaItem.Interfaces.Listenable</node>
+            <node x="344.0028924327705" y="200.0">Java.Model.MediaItem.Interfaces.Readable</node>
+            <node x="1724.1146520146522" y="164.0">Java.Model.MediaItem.Movie.MovieGenre</node>
+            <node x="1876.1146520146522" y="464.0">Java.Model.MediaItem.Record.Record</node>
+            <node x="1512.818151969981" y="0.0">Java.Model.Operator.Operators</node>
+            <node x="1115.1146520146522" y="416.0">Java.Controller.User</node>
+            <node x="0.0" y="176.0">Java.Model.MediaItem.Magazine.MagazineGenre</node>
+            <node x="510.46428571428567" y="452.0">Java.Model.MediaItem.Book.Book</node>
+            <node x="175.0" y="176.0">Java.Model.MediaItem.Magazine.Periodicity</node>
+            <node x="66.46428571428578" y="452.0">Java.Model.MediaItem.Magazine.Magazine</node>
+            <node x="1331.1374006075227" y="989.0">Java.Model.Operator.Operator</node>
+            <node x="1550.1146520146522" y="200.0">Java.Model.MediaItem.Interfaces.Watchable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Java.Controller.Manager" target="Java.Model.MediaItem.MediaItem">
+              <point x="-150.41666666666652" y="-100.0" />
+              <point x="1174.4780934512646" y="1157.0" />
+              <point x="876.4598186366478" y="1157.0" />
+              <point x="876.4598186366478" y="386.0" />
+              <point x="993.9277673545967" y="386.0" />
+              <point x="-50.61538461538453" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Interfaces.Listenable">
+              <point x="0.0" y="-52.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Interfaces.Watchable">
+              <point x="2.2737367544323206E-13" y="-64.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="Java.Model.Operator.Operator" target="Java.Model.Persistence.Mediatheque">
+              <point x="-151.66666666666652" y="-64.0" />
+              <point x="1361.4707339408562" y="969.0" />
+              <point x="1080.9598186366477" y="969.0" />
+              <point x="0.0" y="136.0" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.MediaItem.MediaItem">
+              <point x="-97.0" y="-136.0" />
+              <point x="983.9598186366477" y="647.0" />
+              <point x="977.2813186813189" y="647.0" />
+              <point x="977.2813186813189" y="396.0" />
+              <point x="1019.2354596622888" y="396.0" />
+              <point x="-25.307692307692378" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.Movie.MovieGenre">
+              <point x="64.40000000000032" y="-64.5" />
+              <point x="1691.5146520146523" y="386.0" />
+              <point x="1756.8646520146522" y="386.0" />
+              <point x="-32.75" y="63.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Controller.User">
+              <point x="-30.083333333333258" y="-100.0" />
+              <point x="1294.8114267845976" y="1157.0" />
+              <point x="1285.4598186366477" y="1157.0" />
+              <point x="1285.4598186366477" y="647.0" />
+              <point x="1308.1979853479854" y="647.0" />
+              <point x="27.58333333333337" y="100.5" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Model.Operator.Operators">
+              <point x="-161.66666666666674" y="-136.0" />
+              <point x="919.293151969981" y="647.0" />
+              <point x="830.9642857142857" y="647.0" />
+              <point x="830.9642857142857" y="99.0" />
+              <point x="1522.734818636648" y="99.0" />
+              <point x="-49.58333333333326" y="39.5" />
+            </edge>
+            <edge source="Java.Model.Persistence.Mediatheque" target="Java.Controller.User">
+              <point x="32.33333333333326" y="-136.0" />
+              <point x="1113.293151969981" y="647.0" />
+              <point x="1142.6979853479854" y="647.0" />
+              <point x="-137.91666666666663" y="100.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.MediaItem">
+              <point x="62.0" y="-64.5" />
+              <point x="727.4642857142857" y="366.0" />
+              <point x="943.3123827392119" y="366.0" />
+              <point x="-101.23076923076928" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.Periodicity">
+              <point x="0.0" y="-64.5" />
+              <point x="278.4642857142858" y="396.0" />
+              <point x="265.75" y="396.0" />
+              <point x="30.25" y="51.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Persistence.Mediatheque">
+              <point x="-90.25" y="-100.0" />
+              <point x="1234.6447601179311" y="1147.0" />
+              <point x="954.720733940856" y="1147.0" />
+              <point x="954.720733940856" y="969.0" />
+              <point x="951.6264853033144" y="969.0" />
+              <point x="-129.33333333333326" y="136.0" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Operator.Operator">
+              <point x="82.74999999999989" y="100.5" />
+              <point x="1363.364652014652" y="647.0" />
+              <point x="1482.8040672741895" y="647.0" />
+              <point x="-30.333333333333258" y="-64.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Interfaces.Readable">
+              <point x="60.571428571428555" y="-64.5" />
+              <point x="339.0357142857142" y="396.0" />
+              <point x="379.7528924327705" y="396.0" />
+              <point x="-35.75" y="27.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Persistence.Mediatheque">
+              <point x="-27.58333333333337" y="100.5" />
+              <point x="1253.0313186813187" y="647.0" />
+              <point x="1242.6264853033144" y="647.0" />
+              <point x="161.66666666666674" y="-136.0" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Book.BookGenre">
+              <point x="0.0" y="-64.5" />
+              <point x="31.25" y="63.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.Operator.Operators">
+              <point x="110.33333333333314" y="-100.5" />
+              <point x="1390.9479853479852" y="396.0" />
+              <point x="1368.2098186366475" y="396.0" />
+              <point x="1368.2098186366475" y="119.0" />
+              <point x="1562.4014853033145" y="119.0" />
+              <point x="-9.916666666666742" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.Record.RecordGenre">
+              <point x="61.59999999999991" y="-52.5" />
+              <point x="2091.714652014652" y="386.0" />
+              <point x="2159.364652014652" y="386.0" />
+              <point x="-34.25" y="51.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Record.Record" target="Java.Model.MediaItem.MediaItem">
+              <point x="-123.20000000000005" y="-52.5" />
+              <point x="1906.9146520146521" y="356.0" />
+              <point x="1171.0816135084426" y="356.0" />
+              <point x="126.53846153846143" y="88.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.Magazine.MagazineGenre">
+              <point x="-181.71428571428572" y="-64.5" />
+              <point x="96.75" y="396.0" />
+              <point x="38.75" y="396.0" />
+              <point x="-38.75" y="51.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.MediaItem" target="Java.Model.Operator.Operators">
+              <point x="0.0" y="-88.5" />
+              <point x="1044.5431519699812" y="109.0" />
+              <point x="1542.568151969981" y="109.0" />
+              <point x="-29.75" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Movie.Movie" target="Java.Model.MediaItem.MediaItem">
+              <point x="-128.79999999999973" y="-64.5" />
+              <point x="1498.3146520146522" y="376.0" />
+              <point x="1120.466228893058" y="376.0" />
+              <point x="75.9230769230769" y="88.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operators">
+              <point x="150.41666666666674" y="-100.0" />
+              <point x="1475.3114267845976" y="1157.0" />
+              <point x="2283.614652014652" y="1157.0" />
+              <point x="2283.614652014652" y="99.0" />
+              <point x="1621.9014853033145" y="99.0" />
+              <point x="49.58333333333326" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Book.Book" target="Java.Model.MediaItem.Interfaces.Readable">
+              <point x="-124.0" y="-64.5" />
+              <point x="541.4642857142857" y="336.0" />
+              <point x="451.2528924327705" y="336.0" />
+              <point x="35.75" y="27.5" />
+            </edge>
+            <edge source="Java.Controller.Manager" target="Java.Model.Operator.Operator">
+              <point x="90.25" y="-100.0" />
+              <point x="1415.1447601179311" y="1147.0" />
+              <point x="1604.1374006075227" y="1147.0" />
+              <point x="91.0" y="64.0" />
+            </edge>
+            <edge source="Java.Model.Operator.Operator" target="Java.Model.Operator.Operators">
+              <point x="151.66666666666674" y="-64.0" />
+              <point x="1664.8040672741895" y="969.0" />
+              <point x="2272.614652014652" y="969.0" />
+              <point x="2272.614652014652" y="109.0" />
+              <point x="1602.068151969981" y="109.0" />
+              <point x="29.75" y="39.5" />
+            </edge>
+            <edge source="Java.Model.MediaItem.Magazine.Magazine" target="Java.Model.MediaItem.MediaItem">
+              <point x="181.71428571428572" y="-64.5" />
+              <point x="460.17857142857156" y="356.0" />
+              <point x="918.0046904315197" y="356.0" />
+              <point x="-126.53846153846143" y="88.5" />
+            </edge>
+            <edge source="Java.Controller.User" target="Java.Model.MediaItem.MediaItem">
+              <point x="-1.1368683772161603E-13" y="-100.5" />
+              <point x="1280.614652014652" y="386.0" />
+              <point x="1095.1585365853657" y="386.0" />
+              <point x="50.61538461538453" y="88.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6333333333333334" x="1699.0526315789473" y="789.0" />
+          <SelectedNodes>
+            <node>Java.Model.MediaItem.Book.BookGenre</node>
+            <node>Java.Model.MediaItem.Record.RecordGenre</node>
+            <node>Java.Model.MediaItem.MediaItem</node>
+            <node>Java.Model.MediaItem.Movie.Movie</node>
+            <node>Java.Controller.Manager</node>
+            <node>Java.Model.Persistence.Mediatheque</node>
+            <node>Java.Model.MediaItem.Interfaces.Listenable</node>
+            <node>Java.Model.MediaItem.Interfaces.Readable</node>
+            <node>Java.Model.MediaItem.Movie.MovieGenre</node>
+            <node>Java.Model.MediaItem.Record.Record</node>
+            <node>Java.Model.Operator.Operators</node>
+            <node>Java.Controller.User</node>
+            <node>Java.Model.MediaItem.Magazine.MagazineGenre</node>
+            <node>Java.Model.MediaItem.Book.Book</node>
+            <node>Java.Model.MediaItem.Magazine.Periodicity</node>
+            <node>Java.Model.MediaItem.Magazine.Magazine</node>
+            <node>Java.Model.Operator.Operator</node>
+            <node>Java.Model.MediaItem.Interfaces.Watchable</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
